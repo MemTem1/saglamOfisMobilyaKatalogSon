@@ -33,8 +33,6 @@ const Navbar = () => {
                     </a>
                 </div>
             </header>
-
-            {/* JSX içi stiller */}
             <style>{`
                 .navbar {
                     display: flex;
