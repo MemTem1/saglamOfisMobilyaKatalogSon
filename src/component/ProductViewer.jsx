@@ -19,7 +19,7 @@ const productList = [
         id: 2,
         title: 'BAKÜ KANEPELİ SET',
         images: [
-            '/img/Baku/BakuKapak.jpg',
+            '/img/Baku/BakuKapak.jpg', 
             '/img/Baku/baku6.jpg',
             '/img/Baku/baku3.jpg',
             '/img/Baku/baku1.jpg',
