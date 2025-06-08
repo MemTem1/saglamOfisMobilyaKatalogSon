@@ -55,7 +55,7 @@ const productList = [
         id: 5,
         title: 'NİGHT KANEPE OFİS SET',
         images: [
-            '/img/nightKanepe/nightKanepe0.jpg',
+            '/img/nightKanepe/nightkanepe0.jpg',
             '/img/nightKanepe/nightKanepe1.jpg',
             '/img/nightKanepe/nightKanepe2.jpg',
             '/img/nightKanepe/nightKanepe3.jpg',
