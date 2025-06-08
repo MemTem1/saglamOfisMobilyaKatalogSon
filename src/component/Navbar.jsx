@@ -65,7 +65,7 @@ const Navbar = () => {
                 .company-name {
                     font-size: 1.5rem;
                     font-weight: 600;
-                    color: #ffffff;
+                    color: yellow;
                     transition: opacity 0.3s ease;
                 }
 
