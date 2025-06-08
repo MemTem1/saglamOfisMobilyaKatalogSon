@@ -19,7 +19,7 @@ const productList = [
         id: 2,
         title: 'BAKÜ KANEPELİ SET',
         images: [
-            '/img/Baku/BakuKapak.jpg', 
+            '/img/Baku/BakuKapak.jpg',
             '/img/Baku/baku6.jpg',
             '/img/Baku/baku3.jpg',
             '/img/Baku/baku1.jpg',
@@ -55,10 +55,10 @@ const productList = [
         id: 5,
         title: 'NİGHT KANEPE OFİS SET',
         images: [
-            '/img/nightKanepe/nightkanepe0.jpg',
-            '/img/nightKanepe/nightKanepe1.jpg',
-            '/img/nightKanepe/nightKanepe2.jpg',
-            '/img/nightKanepe/nightKanepe3.jpg',
+            "https://i.ibb.co/DfrP70yW/nightkanepe0.jpg",
+            "https://i.ibb.co/xSfqqx0P/night-Kanepe1.jpg",
+            "https://i.ibb.co/gMpdXDYC/night-Kanepe2.jpg",
+            "https://i.ibb.co/Jwy1HQ6C/night-Kanepe3.jpg",
         ],
         features: ['MASA (170) - DOLAP (150)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
         prices: { city: '17.000 ₺', outOfCity: '22.000 ₺' },
