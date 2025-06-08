@@ -12,7 +12,7 @@ const Navbar = () => {
             <header className="navbar">
                 <div className="nav-left">
                     <img
-                        src='../../public/img/logo.png'
+                        src='../img/logo.png'
                         alt="Logo"
                         className="logo"
                     />
