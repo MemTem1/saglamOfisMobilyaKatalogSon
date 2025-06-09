@@ -293,8 +293,11 @@ const ProductViewer = () => {
                 .productTitle {
                     font-size: 1.3em;
                     margin-bottom: 10px;
-                    color: #001f4d;
+                    color: #fff;
                     text-align: center;
+                    background:#001f4d;
+                    padding: 10px;
+                    border-radius: 8px;
                 }
             `}</style>
         </div>
