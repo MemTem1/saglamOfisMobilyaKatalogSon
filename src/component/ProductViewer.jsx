@@ -258,7 +258,7 @@ const ProductViewer = () => {
                 }
                     .prices p {
                     font-size: 14px;
-                    background: #001f4d;
+                    background: #1e1e2f;
                     margin: 1px;
                     color: white;
                     padding: 7px;
@@ -287,7 +287,7 @@ const ProductViewer = () => {
 
                 .controls button {
                     padding: 10px 20px;
-                    background: #001f4d;
+                    background: #1e1e2f;
                     color: white;
                     border: none;
                     border-radius: 5px;
@@ -305,7 +305,7 @@ const ProductViewer = () => {
                     margin-bottom: 10px;
                     color: #fff;
                     text-align: center;
-                    background:#001f4d;
+                    background:#1e1e2f;
                     padding: 10px;
                     border-radius: 8px;
                 }
