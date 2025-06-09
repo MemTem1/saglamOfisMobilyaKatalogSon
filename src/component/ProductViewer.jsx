@@ -81,9 +81,9 @@ const productList = [
         title: 'BEBEK KANEPE SETİ',
         images: [
             "https://i.ibb.co/svGQSsMH/bebek-KKanepe0.jpg",
-            '/img/BebekKanepe/bebekKanepe1.jpeg',
-            '/img/BebekKanepe/bebekKanepe2.jpeg',
-            '/img/BebekKanepe/bebekKanepe3.jpeg',
+            "https://i.ibb.co/mVjCPYyB/bebek-KKanepe1.jpg",
+            "https://i.ibb.co/5hKWKcKN/bebek-KKanepe2.jpg",
+            "https://i.ibb.co/W48KfWq8/bebek-KKanepe3.jpg",
         ],
         features: ['MASA (170) - DOLAP (120)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
         prices: { city: '16.000 ₺', outOfCity: '21.000 ₺' },

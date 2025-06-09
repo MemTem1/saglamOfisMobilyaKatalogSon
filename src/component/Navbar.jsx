@@ -11,7 +11,7 @@ const Navbar = () => {
             <header className="navbar">
                 <div className="nav-left">
                     <img
-                        src='../img/Logo.png'
+                        src="https://i.ibb.co/twjDC28r/sa-lam-ofis-mobilya-logo.png"
                         alt="Logo"
                         className="logo"
                     />
