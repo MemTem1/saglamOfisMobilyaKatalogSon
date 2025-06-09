@@ -157,8 +157,8 @@ const ProductViewer = () => {
                 </div>
 
                 <div className="prices">
-                    <p><strong>ŞEHİR İÇİ :</strong> {currentProduct.prices.city}</p>
-                    <p><strong>ŞEHİR DIŞI:</strong> {currentProduct.prices.outOfCity}</p>
+                    <p><strong>ŞEHİR İÇİ:</strong> <span>{currentProduct.prices.city}</span></p>
+                    <p><strong>ŞEHİR DIŞI:</strong> <span>{currentProduct.prices.outOfCity}</span></p>
                 </div>
 
                 <ul className="features">
@@ -253,16 +253,26 @@ const ProductViewer = () => {
 
                 .prices {
                     display: flex;
-                    flex-direction: column;
-                    gap: 10px;
                     margin-bottom: 10px;
-                    font-size: 1.1em;
+                    font-family: Arial, sans-serif;
+                }
+                    .prices p {
+                    font-size: 14px;
+                    background: #001f4d;
+                    margin: 1px;
+                    color: white;
+                    padding: 7px;
+                    border-radius: 5px;
+                    }
+                .prices span {
+                    font-weight: bold;
                 }
 
                 .features {
                     list-style: none;
                     padding: 0;
                     margin: 0 0 10px 0;
+                    font-weight: bold;
                 }
 
                 .features li {
