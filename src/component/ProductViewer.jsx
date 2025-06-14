@@ -118,6 +118,35 @@ const productList = [
         features: ['MASA (180) - DOLAP (120)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
         prices: { city: '25.000 ₺', outOfCity: '30.000 ₺' },
     },
+    {
+        id: 11,
+        title: 'DARK LİNE KANEPELİ OFİS SET',
+        images: [
+            "https://i.ibb.co/ycsdzR4x/3.jpg",
+        ],
+        features: ['MASA (170) - DOLAP (110)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
+        prices: { city: '15.000 ₺', outOfCity: '20.000 ₺' },
+    },
+    {
+        id: 12,
+        title: 'BRONZ KANEPELİ OFİS SET',
+        images: [
+            "https://i.ibb.co/S4VnNzYP/4.jpg",
+        ],
+        features: ['MASA (180) - DOLAP (120)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
+        prices: { city: '30.000 ₺', outOfCity: '37.000 ₺' },
+    },
+    {
+        id: 13,
+        title: 'BRONZ KANEPELİ OFİS SET',
+        images: [
+            "https://i.ibb.co/S4VnNzYP/4.jpg",
+        ],
+        features: ['MASA (180) - DOLAP (120)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
+        prices: { city: '30.000 ₺', outOfCity: '37.000 ₺' },
+    },
+
+
 ];
 
 
