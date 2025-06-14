@@ -109,6 +109,15 @@ const productList = [
         features: ['MASA (180) - DOLAP (120)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
         prices: { city: '25.000 ₺', outOfCity: '30.000 ₺' },
     },
+    {
+        id: 10,
+        title: 'SHADOW KANEPELİ OFİS SET',
+        images: [
+            "https://i.ibb.co/xShHydGz/2.jpg",
+        ],
+        features: ['MASA (180) - DOLAP (120)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
+        prices: { city: '25.000 ₺', outOfCity: '30.000 ₺' },
+    },
 ];
 
 
