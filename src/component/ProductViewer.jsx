@@ -181,6 +181,102 @@ const productList = [
         features: ['MASA (170) - DOLAP (120)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
         prices: { city: '13.000 ₺', outOfCity: '18.000 ₺' },
     },
+    {
+        id: 18,
+        title: 'GRAY KANEPELİ OFİS SET',
+        images: [
+            "https://i.ibb.co/fYBGZ2ZH/13.jpg"
+        ],
+        features: ['MASA (160) - DOLAP (120)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
+        prices: { city: '13.000 ₺', outOfCity: '18.000 ₺' },
+    },
+    {
+        id: 19,
+        title: 'RİGHT KANEPELİ OFİS SET',
+        images: [
+            "https://i.ibb.co/HpzccdYk/14.jpg"
+        ],
+        features: ['MASA (160) - DOLAP (120)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
+        prices: { city: '13.000 ₺', outOfCity: '18.000 ₺' },
+    },
+    {
+        id: 20,
+        title: 'ÇAKIR KANEPELİ OFİS SET',
+        images: [
+            "https://i.ibb.co/fVK3ydv5/16.jpg",
+        ],
+        features: ['MASA (170) - DOLAP (120)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
+        prices: { city: '13.000 ₺', outOfCity: '18.000 ₺' },
+    },
+    {
+        id: 21,
+        title: 'WOOD KANEPELİ OFİS SET',
+        images: [
+            "https://i.ibb.co/93gjSCSL/15.jpg"
+        ],
+        features: ['MASA (170) - DOLAP (120)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
+        prices: { city: '13.000 ₺', outOfCity: '18.000 ₺' },
+    },
+    {
+        id: 22,
+        title: 'ÇİTA KANEPELİ OFİS SET',
+        images: [
+            "https://i.ibb.co/C5wgf3T8/17.jpg"
+        ],
+        features: ['MASA (170) - DOLAP (120)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
+        prices: { city: '20.000 ₺', outOfCity: '25.000 ₺' },
+    },
+    {
+        id: 23,
+        title: 'ÇİTA KANEPELİ OFİS SET',
+        images: [
+            "https://i.ibb.co/C5wgf3T8/17.jpg"
+        ],
+        features: ['MASA (170) - DOLAP (120)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
+        prices: { city: '20.000 ₺', outOfCity: '25.000 ₺' },
+    },
+    {
+        id: 24,
+        title: 'LİGHT KANEPELİ OFİS SET',
+        images: [
+            "https://i.ibb.co/XrSgMRgd/18.jpg"
+        ],
+        features: ['MASA (190) - DOLAP (120)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
+        prices: { city: '28.000 ₺', outOfCity: '33.000 ₺' },
+    },
+    {
+        id: 25,
+        title: 'SUN KANEPELİ OFİS SET',
+        images: [
+            "https://i.ibb.co/8g4tk3sV/19.jpg"
+        ],
+        features: ['MASA (190) - DOLAP (120)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
+        prices: { city: '35.000 ₺', outOfCity: '40.000 ₺' }
+
+    },
+    {
+        id: 26,
+        title: 'WAGO KANEPELİ OFİS SET',
+        images: [
+            "https://i.ibb.co/LfHW4Yb/20.jpg",
+        ],
+        features: ['MASA (180) - DOLAP (120)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
+        prices: { city: '35.000 ₺', outOfCity: '40.000 ₺' }
+
+    },
+    {
+        id: 27,
+        title: 'BEYAZ KANEPELİ OFİS SET',
+        images: [
+            "https://i.ibb.co/Q7Qdr4XV/21.jpg",
+        ],
+        features: ['MASA (180) - DOLAP (120)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
+        prices: { city: '35.000 ₺', outOfCity: '40.000 ₺' }
+
+    },
+
+
+
 
 
 ];
