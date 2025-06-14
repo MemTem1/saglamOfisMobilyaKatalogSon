@@ -138,12 +138,12 @@ const productList = [
     },
     {
         id: 13,
-        title: 'BRONZ KANEPELİ OFİS SET',
+        title: 'SİLVER KANEPELİ OFİS SET',
         images: [
-            "https://i.ibb.co/S4VnNzYP/4.jpg",
+            "https://i.ibb.co/KjscpvQp/5.jpg",
         ],
         features: ['MASA (180) - DOLAP (120)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
-        prices: { city: '30.000 ₺', outOfCity: '37.000 ₺' },
+        prices: { city: '35.000 ₺', outOfCity: '42.000 ₺' },
     },
 
 
