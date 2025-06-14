@@ -274,6 +274,36 @@ const productList = [
         prices: { city: '35.000 ₺', outOfCity: '40.000 ₺' }
 
     },
+    {
+        id: 28,
+        title: 'MERCEK KANEPELİ OFİS SET',
+        images: [
+            "https://i.ibb.co/rf54ySDK/22.jpg",
+        ],
+        features: ['MASA (170) - DOLAP (120)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
+        prices: { city: '17.000 ₺', outOfCity: '23.000 ₺' }
+
+    },
+    {
+        id: 29,
+        title: 'AYDA KANEPELİ OFİS SET',
+        images: [
+            "https://i.ibb.co/SX3M0CBF/23.jpg"
+        ],
+        features: ['MASA (180) - DOLAP (120)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
+        prices: { city: '20.000 ₺', outOfCity: '25.000 ₺' }
+
+    },
+    {
+        id: 30,
+        title: 'İNCİ KANEPELİ OFİS SET',
+        images: [
+            "https://i.ibb.co/FZpG63R/25.jpg
+        ],
+        features: ['MASA (170) - DOLAP (120)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
+        prices: { city: '18.000 ₺', outOfCity: '23.000 ₺' }
+
+    },
 
 
 
