@@ -107,7 +107,7 @@ const productList = [
             "https://i.ibb.co/602m1t14/1.jpg",
         ],
         features: ['MASA (180) - DOLAP (120)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
-        prices: { city: '25.000 ₺', outOfCity: '30.000 ₺' },
+        prices: { city: '38.000 ₺', outOfCity: '45.000 ₺' },
     },
     {
         id: 10,
@@ -116,7 +116,7 @@ const productList = [
             "https://i.ibb.co/xShHydGz/2.jpg",
         ],
         features: ['MASA (180) - DOLAP (120)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
-        prices: { city: '25.000 ₺', outOfCity: '30.000 ₺' },
+        prices: { city: '38.000 ₺', outOfCity: '45.000 ₺' },
     },
     {
         id: 11,
@@ -134,7 +134,7 @@ const productList = [
             "https://i.ibb.co/S4VnNzYP/4.jpg",
         ],
         features: ['MASA (180) - DOLAP (120)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
-        prices: { city: '30.000 ₺', outOfCity: '37.000 ₺' },
+        prices: { city: '60.000 ₺', outOfCity: '70.000 ₺' },
     },
     {
         id: 13,
@@ -142,8 +142,8 @@ const productList = [
         images: [
             "https://i.ibb.co/KjscpvQp/5.jpg",
         ],
-        features: ['MASA (180) - DOLAP (120)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
-        prices: { city: '35.000 ₺', outOfCity: '42.000 ₺' },
+        features: ['MASA (2M) - DOLAP (KOSOL)', 'ETEJER (1M) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
+        prices: { city: '60.000 ₺', outOfCity: '70.000 ₺' },
     },
     {
         id: 14,
@@ -151,8 +151,8 @@ const productList = [
         images: [
             "https://i.ibb.co/Q7sbYmGj/6.jpg",
         ],
-        features: ['MASA (180) - DOLAP (120)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
-        prices: { city: '35.000 ₺', outOfCity: '42.000 ₺' },
+        features: ['MASA (2M) - DOLAP (ÜNİTELİ)', 'ETEJER (72) - SEHPA (80)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
+        prices: { city: '60.000 ₺', outOfCity: '70.000 ₺' },
     },
     {
         id: 15,
@@ -160,8 +160,8 @@ const productList = [
         images: [
             "https://i.ibb.co/vMXf988/7.jpg",
         ],
-        features: ['MASA (180) - DOLAP (120)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
-        prices: { city: '35.000 ₺', outOfCity: '42.000 ₺' },
+        features: ['MASA (2M) - DOLAP (160)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
+        prices: { city: '45.000 ₺', outOfCity: '52.000 ₺' },
     },
     {
         id: 16,
@@ -178,8 +178,8 @@ const productList = [
         images: [
             "https://i.ibb.co/JWb0vv62/9.jpg"
         ],
-        features: ['MASA (170) - DOLAP (120)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
-        prices: { city: '13.000 ₺', outOfCity: '18.000 ₺' },
+        features: ['MASA (170) - DOLAP (ÜNİTELİ)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
+        prices: { city: '55.000 ₺', outOfCity: '42.000 ₺' },
     },
     {
         id: 18,
@@ -188,7 +188,7 @@ const productList = [
             "https://i.ibb.co/fYBGZ2ZH/13.jpg"
         ],
         features: ['MASA (160) - DOLAP (120)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
-        prices: { city: '13.000 ₺', outOfCity: '18.000 ₺' },
+        prices: { city: '50.000 ₺', outOfCity: '60.000 ₺' },
     },
     {
         id: 19,
@@ -197,7 +197,7 @@ const productList = [
             "https://i.ibb.co/HpzccdYk/14.jpg"
         ],
         features: ['MASA (160) - DOLAP (120)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
-        prices: { city: '13.000 ₺', outOfCity: '18.000 ₺' },
+        prices: { city: '16.000 ₺', outOfCity: '21.000 ₺' },
     },
     {
         id: 20,
@@ -206,11 +206,11 @@ const productList = [
             "https://i.ibb.co/fVK3ydv5/16.jpg",
         ],
         features: ['MASA (170) - DOLAP (120)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
-        prices: { city: '13.000 ₺', outOfCity: '18.000 ₺' },
+        prices: { city: '60.000 ₺', outOfCity: '70.000 ₺' },
     },
     {
         id: 21,
-        title: 'WOOD KANEPELİ OFİS SET',
+        title: 'WOOD OFİS SET',
         images: [
             "https://i.ibb.co/93gjSCSL/15.jpg"
         ],
@@ -224,7 +224,7 @@ const productList = [
             "https://i.ibb.co/C5wgf3T8/17.jpg"
         ],
         features: ['MASA (170) - DOLAP (120)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
-        prices: { city: '20.000 ₺', outOfCity: '25.000 ₺' },
+        prices: { city: '40.000 ₺', outOfCity: '50.000 ₺' },
     },
     {
         id: 23,
@@ -233,7 +233,7 @@ const productList = [
             "https://i.ibb.co/C5wgf3T8/17.jpg"
         ],
         features: ['MASA (170) - DOLAP (120)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
-        prices: { city: '20.000 ₺', outOfCity: '25.000 ₺' },
+        prices: { city: '40.000 ₺', outOfCity: '47.000 ₺' },
     },
     {
         id: 24,
@@ -242,16 +242,16 @@ const productList = [
             "https://i.ibb.co/XrSgMRgd/18.jpg"
         ],
         features: ['MASA (190) - DOLAP (120)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
-        prices: { city: '28.000 ₺', outOfCity: '33.000 ₺' },
+        prices: { city: '28.000 ₺', outOfCity: '35.000 ₺' },
     },
     {
         id: 25,
-        title: 'SUN KANEPELİ OFİS SET',
+        title: 'AMAROK KANEPELİ OFİS SET',
         images: [
             "https://i.ibb.co/8g4tk3sV/19.jpg"
         ],
-        features: ['MASA (190) - DOLAP (120)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
-        prices: { city: '35.000 ₺', outOfCity: '40.000 ₺' }
+        features: ['MASA (2M) - DOLAP - ÜNİTELİ', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
+        prices: { city: '50.000 ₺', outOfCity: '60.000 ₺' }
 
     },
     {
@@ -261,7 +261,7 @@ const productList = [
             "https://i.ibb.co/LfHW4Yb/20.jpg",
         ],
         features: ['MASA (180) - DOLAP (120)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
-        prices: { city: '35.000 ₺', outOfCity: '40.000 ₺' }
+        prices: { city: '30.000 ₺', outOfCity: '40.000 ₺' }
 
     },
     {
@@ -271,7 +271,7 @@ const productList = [
             "https://i.ibb.co/Q7Qdr4XV/21.jpg",
         ],
         features: ['MASA (180) - DOLAP (120)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
-        prices: { city: '35.000 ₺', outOfCity: '40.000 ₺' }
+        prices: { city: '20.000 ₺', outOfCity: '27.000 ₺' }
 
     },
     {
