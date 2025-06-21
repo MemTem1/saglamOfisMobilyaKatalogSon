@@ -226,17 +226,9 @@ const productList = [
         features: ['MASA (170) - DOLAP (120)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
         prices: { city: '40.000 ₺', outOfCity: '50.000 ₺' },
     },
+
     {
         id: 23,
-        title: 'ÇİTA KANEPELİ OFİS SET',
-        images: [
-            "https://i.ibb.co/C5wgf3T8/17.jpg"
-        ],
-        features: ['MASA (170) - DOLAP (120)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
-        prices: { city: '40.000 ₺', outOfCity: '47.000 ₺' },
-    },
-    {
-        id: 24,
         title: 'LİGHT KANEPELİ OFİS SET',
         images: [
             "https://i.ibb.co/XrSgMRgd/18.jpg"
@@ -245,7 +237,7 @@ const productList = [
         prices: { city: '28.000 ₺', outOfCity: '35.000 ₺' },
     },
     {
-        id: 25,
+        id: 24,
         title: 'AMAROK KANEPELİ OFİS SET',
         images: [
             "https://i.ibb.co/8g4tk3sV/19.jpg"
@@ -255,7 +247,7 @@ const productList = [
 
     },
     {
-        id: 26,
+        id: 25,
         title: 'WAGO KANEPELİ OFİS SET',
         images: [
             "https://i.ibb.co/LfHW4Yb/20.jpg",
@@ -265,7 +257,7 @@ const productList = [
 
     },
     {
-        id: 27,
+        id: 26,
         title: 'BEYAZ KANEPELİ OFİS SET',
         images: [
             "https://i.ibb.co/Q7Qdr4XV/21.jpg",
@@ -275,7 +267,7 @@ const productList = [
 
     },
     {
-        id: 28,
+        id: 27,
         title: 'MERCEK KANEPELİ OFİS SET',
         images: [
             "https://i.ibb.co/rf54ySDK/22.jpg",
@@ -285,7 +277,7 @@ const productList = [
 
     },
     {
-        id: 29,
+        id: 28,
         title: 'AYDA KANEPELİ OFİS SET',
         images: [
             "https://i.ibb.co/SX3M0CBF/23.jpg"
@@ -295,7 +287,7 @@ const productList = [
 
     },
     {
-        id: 30,
+        id: 29,
         title: 'İNCİ KANEPELİ OFİS SET',
         images: [
             "https://i.ibb.co/FZpG63R/25.jpg",
