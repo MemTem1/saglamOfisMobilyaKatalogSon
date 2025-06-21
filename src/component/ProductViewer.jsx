@@ -294,6 +294,17 @@ const productList = [
         prices: { city: '20.000 ₺', outOfCity: '25.000 ₺' }
 
     },
+    {
+        id: 30,
+        title: 'İNCİ KANEPELİ OFİS SET',
+        images: [
+            "https://i.ibb.co/FZpG63R/25.jpg",
+
+        ],
+        features: ['MASA (170) - DOLAP (120)', 'ETEJER (72) - SEHPA (40)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
+        prices: { city: '18.000 ₺', outOfCity: '23.000 ₺' }
+
+    },
 
 
 
