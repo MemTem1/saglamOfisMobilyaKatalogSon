@@ -13,7 +13,7 @@ const productList = [
             "https://i.ibb.co/hR7xYHCv/Whats-App-G-rsel-2025-05-20-saat-18-42-11-b3a8cb4b.jpg",
         ],
         features: ['MASA (160) - DOLAP (90)', 'ETEJER 70 - SEHPA (35)', "2 TEKLİ 1 ADET 3'LÜ KANEPE (180)", 'MÜDÜR KOLTUĞU'],
-        prices: { city: '14.500 ₺', outOfCity: '19.500 ₺' },
+        prices: { city: '16.500 ₺', outOfCity: '24.000 ₺' },
     },
     {
         id: 2,
