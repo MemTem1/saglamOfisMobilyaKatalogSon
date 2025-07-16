@@ -368,32 +368,38 @@ const ProductViewer = () => {
                         <li key={i}>✓ {f}</li>
                     ))}
                 </ul>
+            </div>
 
-                <div className="controls">
-                    <button onClick={goBack} disabled={transitioning}>&larr; Geri</button>
-                    <button onClick={goNext} disabled={transitioning}>İleri &rarr;</button>
-                </div>
+            {/* Butonlar artık kart dışında */}
+            <div className="controls">
+                <button onClick={goBack} disabled={transitioning}>&larr; Geri</button>
+                <button onClick={goNext} disabled={transitioning}>İleri &rarr;</button>
             </div>
 
             <style>{`
-                .card-viewer-wrapper {
-                    margin-top: 10px;
-                    width: 350px;
-                    align-items: center;
-                    position: relative;
-                }
-
-                .product-card {
-                    width: 300px;
-                    background: #fff;
-                    border: 1px solid #ccc;
-                    border-radius: 12px;
-                    padding: 20px;
-                    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-                    position: relative;
-                    transition: transform 0.3s ease, opacity 0.3s ease;
-                }
-
+                   .card-viewer-wrapper {
+                margin-top: 10px;
+                width: 350px;
+                align-items: center;
+                position: relative;
+            }
+                   .product-card {
+                width: 300px;
+                background: #fff;
+                border: 1px solid #ccc;
+                border-radius: 12px;
+                padding: 20px;
+                box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+                position: relative;
+                transition: transform 0.3s ease, opacity 0.3s ease;
+                margin: 0 auto;
+            }
+                .controls {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 15px;
+                gap: 10px;
+            }
                 .exit-left { animation: slideOutLeft 0.3s forwards; }
                 .exit-right { animation: slideOutRight 0.3s forwards; }
                 .enter-left { animation: slideInLeft 0.3s forwards; }
@@ -483,8 +489,8 @@ const ProductViewer = () => {
 
                 .controls {
                     display: flex;
-                    justify-content: space-between;
-                    gap: 10px;
+                    justify-content: space-around;
+                    
                 }
 
                 .controls button {
