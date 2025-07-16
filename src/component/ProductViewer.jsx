@@ -339,67 +339,75 @@ const ProductViewer = () => {
     const currentProduct = productList[currentIndex];
 
     return (
-        <div className="card-viewer-wrapper">
-            <div className={`product-card ${transitioning ? (direction === 'left' || direction === 'right' ? `exit-${direction}` : direction) : ''}`}>
-                <h2 className='productTitle'>{currentProduct.title}</h2>
-                <div className="main-image-container">
-                    <img src={mainImage} alt="Ana Fotoğraf" className="main-image" />
+        <div className='container'>
+            <div className="card-viewer-wrapper">
+                <div className={`product-card ${transitioning ? (direction === 'left' || direction === 'right' ? `exit-${direction}` : direction) : ''}`}>
+                    <h2 className='productTitle'>{currentProduct.title}</h2>
+                    <div className="main-image-container">
+                        <img src={mainImage} alt="Ana Fotoğraf" className="main-image" />
+                    </div>
+
+                    <div className="thumbnails">
+                        {currentProduct.images.map((img, i) => (
+                            <img
+                                key={i}
+                                src={img}
+                                alt={`Thumbnail ${i}`}
+                                className={`thumb ${mainImage === img ? 'active' : ''}`}
+                                onClick={() => setMainImage(img)}
+                            />
+                        ))}
+                    </div>
+
+                    <div className="prices">
+                        <p><strong>ŞEHİR İÇİ:</strong> <span>{currentProduct.prices.city}</span></p>
+                        <p><strong>ŞEHİR DIŞI:</strong> <span>{currentProduct.prices.outOfCity}</span></p>
+                    </div>
+
+                    <ul className="features">
+                        {currentProduct.features.map((f, i) => (
+                            <li key={i}>✓ {f}</li>
+                        ))}
+                    </ul>
                 </div>
 
-                <div className="thumbnails">
-                    {currentProduct.images.map((img, i) => (
-                        <img
-                            key={i}
-                            src={img}
-                            alt={`Thumbnail ${i}`}
-                            className={`thumb ${mainImage === img ? 'active' : ''}`}
-                            onClick={() => setMainImage(img)}
-                        />
-                    ))}
+                {/* Butonlar artık kart dışında */}
+                <div className="controls">
+                    <button onClick={goBack} disabled={transitioning}>&larr; Geri</button>
+                    <button onClick={goNext} disabled={transitioning}>İleri &rarr;</button>
                 </div>
-
-                <div className="prices">
-                    <p><strong>ŞEHİR İÇİ:</strong> <span>{currentProduct.prices.city}</span></p>
-                    <p><strong>ŞEHİR DIŞI:</strong> <span>{currentProduct.prices.outOfCity}</span></p>
-                </div>
-
-                <ul className="features">
-                    {currentProduct.features.map((f, i) => (
-                        <li key={i}>✓ {f}</li>
-                    ))}
-                </ul>
             </div>
 
-            {/* Butonlar artık kart dışında */}
-            <div className="controls">
-                <button onClick={goBack} disabled={transitioning}>&larr; Geri</button>
-                <button onClick={goNext} disabled={transitioning}>İleri &rarr;</button>
-            </div>
 
             <style>{`
-                   .card-viewer-wrapper {
+                .card-viewer-wrapper {
                 margin-top: 10px;
                 width: 350px;
                 align-items: center;
                 position: relative;
-            }
-                   .product-card {
+                }
+                .container{
+                padding: 10px;
+                background:rgb(255, 255, 255);
+                border-radius: 10px;
+                box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+                }
+                .product-card {
                 width: 300px;
                 background: #fff;
-                border: 1px solid #ccc;
                 border-radius: 12px;
                 padding: 20px;
-                box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+               background:rgb(245, 245, 245);
                 position: relative;
                 transition: transform 0.3s ease, opacity 0.3s ease;
                 margin: 0 auto;
-            }
+                }
                 .controls {
                 display: flex;
                 justify-content: space-between;
                 margin-top: 15px;
                 gap: 10px;
-            }
+                }
                 .exit-left { animation: slideOutLeft 0.3s forwards; }
                 .exit-right { animation: slideOutRight 0.3s forwards; }
                 .enter-left { animation: slideInLeft 0.3s forwards; }
